@@ -1,5 +1,9 @@
 # Simple Sync Todo in Pure JS
 
+
+
+A very light and simple syncronized todo list PWA
+
 ## Installation
 1. ``npm install``
 
