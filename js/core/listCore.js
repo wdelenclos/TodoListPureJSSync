@@ -64,10 +64,12 @@ function injectTask(task) {
 function addTask() {
     //Create a new list item with the text from #new-task:
     let listItem = createNewTaskElement(taskInput.value);
+    let id =  Date.now().toString();
+    listItem.dataset.id = id;
     //Append listItem to incompleteTasksHolder
     incompleteTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskCompleted);
-    localAdd({_id: Date.now().toString(), "name": taskInput.value, "status": 0});
+    localAdd({_id: id, "name": taskInput.value, "status": 0});
     taskInput.value = "";
 };
 
