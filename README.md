@@ -3,7 +3,8 @@
 
 
 A very light and simple syncronized todo list PWA
-![alt text](https://raw.githubusercontent.com/wdelenclos/TodoListPureJSSync/master/preview.png | width=100 )
+
+<img src="https://raw.githubusercontent.com/wdelenclos/TodoListPureJSSync/master/preview.png" data-canonical-src="https://raw.githubusercontent.com/wdelenclos/TodoListPureJSSync/master/preview.png" width="200" />
 
 ## Installation
 1. ``npm install``
